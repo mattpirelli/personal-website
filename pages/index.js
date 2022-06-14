@@ -1,23 +1,23 @@
 import Head from 'next/head'
 import Header from '@components/Header'
-import Footer from '@components/Footer'
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Matteo Pirelli | UI Design and development</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Matteo Pirelli" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          UI <span className="styled">design</span> and <code>&lt; development /&gt;</code>
         </p>
-      </main>
 
-      <Footer />
+        <p>Hit me up at hello @ matteopirelli . com</p>
+
+      </main>
     </div>
   )
 }

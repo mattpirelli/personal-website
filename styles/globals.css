@@ -1,3 +1,11 @@
+:root {
+  --teal: #426F7B ;
+  --cyan: #76CBE8 ;
+  --salmon: #F8CBBC;
+  --purple: #7E358B;
+  --coral: #fe4040;
+}
+
 html,
 body {
   padding: 0;
@@ -19,11 +27,22 @@ main {
   align-items: center;
 }
 
-code {
-  background: #fafafa;
+code, .styled {
   border-radius: 5px;
-  padding: 0.75rem;
+  padding: 0.5rem;
+}
+
+code {
+  background: #2f2f2f;
+  color: lime;
   font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
+}
+
+.styled {
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  background: var(--coral);
 }
 
 .container {
