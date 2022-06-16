@@ -10,9 +10,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Matteo Pirelli" />
+        <Header title="Hello there!" />
         <p className="description">
-          UI <span className="styled">design</span> and <code>&lt; development /&gt;</code>
+        <span className="styled">UI designer</span> &amp; <code>&lt; developer /&gt;</code>
         </p>
 
         <p>Hit me up at hello @ matteopirelli . com</p>

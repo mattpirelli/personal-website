@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+
 :root {
   --teal: #426F7B ;
   --cyan: #76CBE8 ;
   --salmon: #F8CBBC;
   --purple: #7E358B;
   --coral: #fe4040;
+  --kanit: 'Kanit', sans-serif;
 }
 
 html,
@@ -12,6 +15,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color:gold;
 }
 
 * {
@@ -27,22 +31,28 @@ main {
   align-items: center;
 }
 
+.heroTitle {
+  font-size: 15rem;
+  font-family: var(--kanit);
+  line-height: 1rem;
+}
+
 code, .styled {
   border-radius: 5px;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
 }
 
 code {
   background: #2f2f2f;
-  color: lime;
+  color: #FFF;
   font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
 }
 
 .styled {
   font-weight: 700;
-  color: #fff;
+  color: #000;
   text-transform: uppercase;
-  background: var(--coral);
+  background: #FFF;
 }
 
 .container {
